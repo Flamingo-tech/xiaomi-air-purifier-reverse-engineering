@@ -1,2 +1,5 @@
-# xiaomi_air_filter_reverse_engineering
-Xiaomi air filter H3 reverse engineering
+# Xiaomi Air Purifier H3 Reverse Engineering
+
+*For eductionational purposes only*
+
+As talked about in my series at [Flamingo Tech](https://flamingo-tech.nl/2021/03/12/xiaomi-air-purifier-3h-reverse-engineering-part1/)
