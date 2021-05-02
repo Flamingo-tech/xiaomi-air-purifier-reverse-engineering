@@ -18,8 +18,12 @@ J9
 |   6 |          NC |
 
 Next to J9, on the backside of the PCB, there is an unlabeled TestPoint.
+
 This is nRST, Pin7 on the STM32F412RE.
+
 For convenience, this pad can be bridged to the non-connected pin 6 on the pinheader.
+
+![SWD nRST bridge](/images/nrst_bridge.jpg)
 
 ## Connections from Raspberry Pi to PCB
 
@@ -33,6 +37,8 @@ See (pinout.xyz) for RasPi pinheader pinout
 | J9-4 (CLK)     | GPIO 2  |
 | J9-6 / nRST TP | GPIO 18 |
 
+![RasPi4 SWD connection](/images/raspi4_swd.jpg)
+
 ## OpenOCD usage
 
 Use the provided config file
@@ -40,7 +46,7 @@ Use the provided config file
 NOTE: Modify parameters `bcm2835gpio_peripheral_base` and `bcm2835gpio_speed_coeffs` depending on the model.
 
 ```sh
-$ openocd -f <raspiX-swd.cfg -f /usr/local/share/openocd/scripts/target/stm32f4x.cfg
+$ openocd -f raspi4-swd.cfg -f /usr/local/share/openocd/scripts/target/stm32f4x.cfg
 Open On-Chip Debugger 0.11.0+dev-00135-g87c90393f-dirty (2021-05-02-11:44)
 Licensed under GNU GPL v2
 For bug reports, read
