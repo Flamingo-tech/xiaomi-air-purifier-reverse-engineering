@@ -1,4 +1,4 @@
-# xiaomi_air_filter_reverse_engineering
+# xiaomi air filter reverse engineering
 Xiaomi air filter H3 reverse engineering
 
 # Please read the wiki first!
