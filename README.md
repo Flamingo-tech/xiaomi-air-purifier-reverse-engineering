@@ -1,5 +1,5 @@
-# xiaomi air filter reverse engineering
-Xiaomi air filter H3 reverse engineering
+# xiaomi air Purifier reverse engineering
+Xiaomi air Purifier H3 reverse engineering
 
 # Please read the wiki first!
 
