@@ -26,3 +26,12 @@ python script:
     > assert getpwd("04A03CAA1E7080") == "CD91AFCC" assert
     > getpwd("04112233445566") == "EC9805C8" print("PWD:",
     > getpwd(sys.argv[1]))
+
+
+
+Block 8 back to 00000000, it’s back to 100% \
+Other block info:\
+Block4 is rfid-factory-id\
+Block5 is rfid-product-id (xx:xx:xx:xx Regular Filter)\
+Block6: rfid-time\
+Block7: rfid-serial-num 
